@@ -1,0 +1,6 @@
+.topBg {
+    background-image: url('../public/assets/landings/topBackground.png');
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
