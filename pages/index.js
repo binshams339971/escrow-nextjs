@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Landings.module.css';
 import Reason from '../components/ui/landings/Reason.js';
+import Safety from '../components/ui/landings/Safety.js';
 export default function Home() {
   return (
     <div className='' >
@@ -18,7 +19,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className='mt-36 md:mt-40'>
+        <div className='mt-24 md:mt-40'>
           <p className='w-64 md:w-80 mx-auto text-3xl font-semibold text-white text-center align-middle'>A secure, reliable way to transact your money</p>
           <p className='w-80 md:w-[36rem] mx-auto text-md font-light mt-4 text-white text-center align-middle'>It is a long established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using Lorem Ipsum is </p>
@@ -39,6 +40,7 @@ export default function Home() {
         </div>
       </div>
       <Reason />
+      <Safety />
       <div className='h-96 bg-blue-900'></div>
     </div>
   )
